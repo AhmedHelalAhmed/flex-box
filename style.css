@@ -30,10 +30,19 @@
     /*align-items: baseline;*/
 
     /*height: 1500px;*/
+
+    /*flex-wrap: nowrap;!*default*!*/
+    flex-wrap: wrap;
+    /*align-content: flex-start;!* align entire items along cross axis*!*/
+    /*align-content: flex-end;*/
+    /*align-content: space-between;*/
+    /*align-content: space-around;*/
+    /*align-content: space-evenly;*/
+    align-content: stretch; /* default*/
 }
 
 .i2 {
-    height: 500px;
+    height: 200px;
 
     /*flex-basis: 20%; !* to set the width of the flex item*!*/
     /*flex-basis: 300px; !* to set the width of the flex item*!*/
@@ -60,7 +69,7 @@
 }
 
 .i3 {
-    align-self: flex-end;
+    /*align-self: flex-end;*/
     /*align-self: flex-start;*/
     /*align-self: stretch;*/
 
