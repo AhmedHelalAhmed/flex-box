@@ -10,6 +10,30 @@
     background-color: #ccc;
     padding: 10px;
     display: flex;
+    /*flex-direction: row; !*default*!*/
+    /*flex-direction: row-reverse;*/
+    flex-direction: column;
+    /*flex-direction: column-reverse;*/
+
+    /*justify-content: flex-start;*//*default*/
+    justify-content: center; /* main axis alignment from left to right */
+    /*justify-content: space-between;*/
+    /*justify-content: space-around;!* x - 2x *!*/
+    /*justify-content: space-evenly;!* equal spaces *!*/
+    /*justify-content: flex-end;*/
+
+
+    align-items: center; /* cross axis alignment from up to down */
+    /*align-items: flex-start;*/
+    /*align-items: flex-end;*/
+    /*align-items: stretch; !*default*!*/
+    /*align-items: baseline;*/
+
+    /*height: 1500px;*/
+}
+
+.i2 {
+    /*height: 500px;*/
 }
 
 .item {
@@ -18,4 +42,8 @@
     margin: 30px;
     font-size: 40px;
     color: #fff;
+}
+
+.i4 {
+    /*font-size: 90px;*/
 }
